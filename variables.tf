@@ -11,10 +11,10 @@ variable "logs_group" {
 }
 
 variable "nginx_ecr_repository_url" {
-	default = "<account number>.dkr.ecr.us-east-1.amazonaws.com/will-nginx:latest"
+	default = "115456585578.dkr.ecr.us-east-1.amazonaws.com/will-nginx:latest"
 }
 
 variable "php_ecr_repository_url" {
-	default = "<account number>.dkr.ecr.us-east-1.amazonaws.com/will-php:latest"
+	default = "115456585578.dkr.ecr.us-east-1.amazonaws.com/will-php:latest"
 }
 
